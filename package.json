@@ -1,0 +1,22 @@
+{
+  "name": "segredos-amor-50-efi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page de venda do ebook Segredos para Conquistar o Amor Depois dos 50 com pagamento Pix via Efí Bank.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "qrcode": "^1.5.4"
+  }
+}
