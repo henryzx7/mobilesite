@@ -1,0 +1,6 @@
+node_modules/
+.env
+certificates/*.p12
+certificates/*.pfx
+certificates/*.pem
+.DS_Store
