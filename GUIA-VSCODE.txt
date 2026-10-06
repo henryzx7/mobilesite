@@ -1,0 +1,21 @@
+GUIA RAPIDO - WINDOWS + VS CODE
+
+1. Abra esta pasta no VS Code: Arquivo > Abrir Pasta.
+2. Terminal > Novo Terminal.
+3. Se o terminal for PowerShell, voce pode continuar usando npm.cmd, ou trocar para Command Prompt (Prompt de Comando).
+4. Rode:
+   npm.cmd install
+5. Crie o .env, se ainda nao existir:
+   Copy-Item .env.example .env
+   (no Prompt de Comando use: copy .env.example .env)
+6. Para iniciar:
+   npm.cmd start
+7. Abra no navegador:
+   http://localhost:3000
+
+ALTERNATIVA MAIS FACIL:
+- Duplo clique em INSTALAR.bat
+- Depois duplo clique em INICIAR_SITE.bat
+
+OBSERVACAO:
+O site abre mesmo sem as credenciais da Efi. As credenciais/certificado so sao exigidos quando voce clicar para gerar o Pix.
